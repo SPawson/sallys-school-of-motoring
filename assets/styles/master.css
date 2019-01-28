@@ -41,6 +41,11 @@ footer ul{
 footer ul li{
     text-decoration: none;
 }
+footer ul li a,
+footer p a{
+    color: white;
+}
+
 .social-links li {
     display: inline-block;
 }
