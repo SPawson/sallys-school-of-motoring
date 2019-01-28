@@ -1,0 +1,66 @@
+/*---------------------------------------------------Universal Styles*/
+
+/*---------------------------------------------------Special Paddings/Margins/Text*/
+
+
+
+/*---------------------------------------------------Navigation Styles*/
+.navbar{
+    margin-bottom: 0px;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+}
+
+.navbar-brand{
+    height: 50px;
+}
+
+/*---------------------------------------------------Footer Styles*/
+footer{
+    background-color: #464663;
+    color: white;
+}
+
+
+.footer-header{
+   text-weight: bold;
+}
+
+.footer-text{
+    margin-left: 5px;
+}
+footer ul{
+    list-style: none;
+    padding: 0px;
+}
+
+footer ul li{
+    text-decoration: none;
+}
+.social-links li {
+    display: inline-block;
+}
+
+.social-links li a i{
+    width: 40px;
+    height: 40px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-bottom{
+    border-top: solid 1px #fafafa;
+}
