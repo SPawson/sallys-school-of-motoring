@@ -60,25 +60,6 @@
     font-size: 1.1em;
 }
 
-/*---------------------------------------------------Callout Styles*/
-
-.callout-container{
-    height: 90vh;
-}
-
-/*---------------------------------------------------Learn To Drive With Sally Styles*/
-
-.learn-sally-container{
-    background-color: gray;
-}
-
-/*---------------------------------------------------Area Covered Styles*/
-
-/*---------------------------------------------------Testimonies Styles*/
-
-/*---------------------------------------------------Contact Styles*/
-
-
 /*---------------------------------------------------Footer Styles*/
 footer{
     background-color: #464663;
@@ -145,3 +126,35 @@ footer p a{
     border-top: solid 1px #fafafa;
     padding: 5px;
 }
+
+/*----------------------------------------------------**INDEX.HTML STYLES*/
+
+/*---------------------------------------------------Callout Styles*/
+
+.callout-container{
+    height: 90vh;
+}
+
+/*---------------------------------------------------Learn To Drive With Sally Styles*/
+
+.learn-sally-container{
+    background-color: gray;
+}
+
+/*---------------------------------------------------Area Covered Styles*/
+
+/*---------------------------------------------------Testimonies Styles*/
+
+/*---------------------------------------------------Contact Me Styles*/
+
+/*----------------------------------------------------**ABOUT.HTML STYLES*/
+
+/*----------------------------------------------------Instructor Styles*/
+
+.container-instructor{
+    margin-top: 55px;
+}
+
+
+
+
