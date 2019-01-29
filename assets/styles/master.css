@@ -63,11 +63,14 @@
 /*---------------------------------------------------Callout Styles*/
 
 .callout-container{
-    height: 80vh;
+    height: 90vh;
 }
 
 /*---------------------------------------------------Learn To Drive With Sally Styles*/
 
+.learn-sally-container{
+    background-color: gray;
+}
 
 
 /*---------------------------------------------------Footer Styles*/
