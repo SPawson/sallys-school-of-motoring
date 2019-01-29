@@ -23,9 +23,14 @@
     
 }
 
-.navbar-default .navbar-collapse{
+/*.navbar-default .navbar-collapse{
     border-top-color: #fff;
-}
+    position: relative;
+    top: -1;
+    left: 0;
+    z-index: -1;
+}*/
+
 
 .navbar .navbar-brand{
     height: 50px;
@@ -46,9 +51,7 @@
 
 .active-page{
     background-color: #7595f2;
-    position: relative;
-    top:0;
-    left:0;
+    height: 49px;
     border-color: transparent;
 }
 
@@ -56,6 +59,16 @@
     color: #fafafa;
     font-size: 1.1em;
 }
+
+/*---------------------------------------------------Callout Styles*/
+
+.callout-container{
+    height: 80vh;
+}
+
+/*---------------------------------------------------Learn To Drive With Sally Styles*/
+
+
 
 /*---------------------------------------------------Footer Styles*/
 footer{
