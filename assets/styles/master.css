@@ -5,7 +5,9 @@
     padding: 0;
 }
 /*---------------------------------------------------Special Paddings/Margins/Text*/
-
+.container-top{
+     margin-top: 55px;
+}
 
 
 /*---------------------------------------------------Navigation Styles*/
@@ -152,8 +154,20 @@ footer p a{
 /*----------------------------------------------------Instructor Styles*/
 
 .container-instructor{
-    margin-top: 55px;
+   
 }
+
+/*----------------------------------------------------**LESSON-PRICING.HTML STYLES*/
+/*---------------------------------------------------- Packages*/
+.panel-top-border{
+    border-top: 1px solid;
+}
+
+
+
+
+
+
 
 
 
