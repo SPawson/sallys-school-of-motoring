@@ -166,8 +166,26 @@ footer p a{
 
 /*----------------------------------------------------**LEARNING-TO-DRIVE.HTML STYLES*/
 
+/*----------------------------------------------------**CONTACT.HTML STYLES*/
+/*----------------------------------------------------Contact Details*/
+.contact-text{
+    margin-left: 5px;
+}
 
+.contact-information{
+    list-style: none;
+    padding: 0px;
+    
+}
 
+.contact-information ul li{
+    text-decoration: none;
+}
+
+.details-container{
+    border: 1px solid black;
+    background-color: #ebe8e8;
+}
 
 
 
