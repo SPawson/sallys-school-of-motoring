@@ -6,15 +6,23 @@
     padding: 0;
 }
 
+blockquote{
+        border-left: 5px solid #8554c640;
+      
+}
 /*---------------------------------------------------Special Paddings/Margins/Text*/
 
 .container-top {
     margin-top: 55px;
 }
 
-p {
-    font-size: 1.15em;
+p{
+    font-size: 1.3em;
     color: black;
+}
+
+blockquote{
+    font-size: 1.1em;
 }
 
 h1,
@@ -74,7 +82,7 @@ h6 {
 }
 
 .active-page {
-    background-color: #7595f2;
+    background-color: #8082b3;
     height: 49px;
     border-color: transparent;
 }
