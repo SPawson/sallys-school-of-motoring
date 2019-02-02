@@ -10,11 +10,17 @@
 }
 p{
     font-size: 1.15em;
+    color: black;
 }
 
 h1,h2,h3,h4,
 h5,h6{
     margin-bottom: 28px;
+}
+
+.section-margin{
+    margin-bottom: 10%;
+    
 }
 
 
@@ -203,12 +209,30 @@ font-weight: bold;
     background-color: white;
 }
 
-.learn-with-sally-text{
-    text-align: left;
+
+/*---------------------------------------------------Area Covered Styles*/
+.areas-covered-container{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.area-image{
+ margin-top: 30px;
+}
+
+.area-image img{
+    width: 100%;
+}
+
+.area-image p{
+    font-size: 0.7em;
     
 }
 
-/*---------------------------------------------------Area Covered Styles*/
+.text-left-image{
+    postion: relative;
+    left:0;
+}
 
 /*---------------------------------------------------Testimonies Styles*/
 
