@@ -8,7 +8,14 @@
 .container-top{
      margin-top: 55px;
 }
+p{
+    font-size: 1.15em;
+}
 
+h1,h2,h3,h4,
+h5,h6{
+    margin-bottom: 28px;
+}
 
 
 /*---------------------------------------------------Navigation Styles*/
@@ -134,6 +141,7 @@ footer p a{
 
 /*---------------------------------------------------Callout Styles*/
 
+/*Code snippet taken from =""*/
 .callout-container{
     height: 90vh;
     background: url(../images/callout/driving-image--hi-op.jpg) no-repeat center center fixed; 
@@ -193,6 +201,11 @@ font-weight: bold;
 
 .learn-sally-container{
     background-color: white;
+}
+
+.learn-with-sally-text{
+    text-align: left;
+    
 }
 
 /*---------------------------------------------------Area Covered Styles*/
