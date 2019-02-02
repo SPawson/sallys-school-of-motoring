@@ -1,42 +1,51 @@
 /*---------------------------------------------------Universal Styles*/
-*{
+
+* {
     font-family: 'News Cycle', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 /*---------------------------------------------------Special Paddings/Margins/Text*/
-.container-top{
-     margin-top: 55px;
+
+.container-top {
+    margin-top: 55px;
 }
-p{
+
+p {
     font-size: 1.15em;
     color: black;
 }
 
-h1,h2,h3,h4,
-h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 28px;
 }
 
-.section-margin{
+.section-margin {
     margin-bottom: 10%;
-    
+
 }
 
 
 /*---------------------------------------------------Navigation Styles*/
-.navbar{
+
+.navbar {
     margin-bottom: 0px;
     position: absolute;
     top: 0;
-    left:0;
+    left: 0;
     width: 100%;
     height: 50px;
     z-index: 1;
     background-color: #464663;
     border-color: #464663;
     border-radius: 0%;
-    
+
 }
 
 /*.navbar-default .navbar-collapse{
@@ -47,80 +56,84 @@ h5,h6{
     z-index: -1;
 }*/
 
-
-.navbar .navbar-brand{
+.navbar .navbar-brand {
     height: 50px;
     color: #fafafa;
     font-weight: bold;
     font-size: 20px;
 }
 
-.navbar .navbar-brand:hover{
+.navbar .navbar-brand:hover {
     color: white;
     font-weight: bold;
 }
 
-.navbar-default .navbar-toggle{
+.navbar-default .navbar-toggle {
     border-color: #dbd6d6;
     background-color: #dbd6d6;
 }
 
-.active-page{
+.active-page {
     background-color: #7595f2;
     height: 49px;
     border-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a{
+.navbar-default .navbar-nav>li>a {
     color: #fafafa;
     font-size: 1.1em;
 }
 
 /*---------------------------------------------------Footer Styles*/
-footer{
+
+footer {
     background-color: #464663;
     color: white;
 }
 
-.footer-top{
+.footer-top {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.footer-top .footer-heading{
-   text-weight: bold;
-   font-size: 1.7em;
-   color: white;
+.footer-top .footer-heading {
+    text-weight: bold;
+    font-size: 1.7em;
+    color: white;
 }
 
-.footer-text{
+.footer-text {
     margin-left: 5px;
 }
-footer ul{
+
+footer ul {
     list-style: none;
     padding: 0px;
 }
 
-footer ul li{
+footer ul li {
     text-decoration: none;
 }
+
 footer ul li a,
-footer p a{
+footer p a {
     color: white;
 }
 
 .social-links li {
     display: inline-block;
 }
-.social{
+
+.social {
     margin-bottom: 20px;
 }
 
-.social-links{
+.social-links {
     margin-top: 10px;
 }
-.social-links li a i{
+
+.social-links li a i {
     width: 40px;
     height: 40px;
     padding: 20px 0;
@@ -138,19 +151,23 @@ footer p a{
 }
 
 
-.footer-bottom{
+.footer-bottom {
     border-top: solid 1px #fafafa;
     padding: 5px;
 }
 
+.copyright p{
+    color: white;
+}
 /*----------------------------------------------------**INDEX.HTML STYLES*/
 
 /*---------------------------------------------------Callout Styles*/
 
 /*Code snippet taken from =""*/
-.callout-container{
+
+.callout-container {
     height: 90vh;
-    background: url(../images/callout/driving-image--hi-op.jpg) no-repeat center center fixed; 
+    background: url(../images/callout/driving-image--hi-op.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -160,7 +177,7 @@ footer p a{
     justify-content: center;
 }
 
-.jumbotron{
+.jumbotron {
     margin-top: 10%;
     background-color: #c8c5dcd9;
     color: #413d3d;
@@ -170,85 +187,97 @@ footer p a{
     padding: 10px;
 }
 
-.callout-title{
+.callout-title {
     margin-top: 45px;
     font-weight: bold;
 }
 
 
-.jumbotron .divider{
+.jumbotron .divider {
     width: 20%;
     margin: 35px auto;
     border-top: 2px solid #413d3d;
 }
 
-.callout-subtext{
+.callout-subtext {
     margin-top: 46px;
 }
 
-.btn-cta{
-     
-background-color: white;
-font-weight: bold;
-margin: 10px 0;
+.btn-cta {
+
+    background-color: white;
+    font-weight: bold;
+    margin: 10px 0;
 }
 
 .btn-cta:hover,
 .btn-cta:focus,
 .btn-cta:active,
-.btn-cta:active:focus{
-     
-background-color: #f1f1f1;
-font-weight: bold;
+.btn-cta:active:focus {
 
-     
+    background-color: #f1f1f1;
+    font-weight: bold;
+
+
 }
+
 /*---------------------------------------------------Learn To Drive With Sally Styles*/
 
-.learn-sally-container{
+.learn-sally-container {
     background-color: white;
 }
 
 
 /*---------------------------------------------------Area Covered Styles*/
-.areas-covered-container{
+
+.areas-covered-container {
     background-color: whitesmoke;
     padding: 10px;
 }
 
-.area-image{
- margin-top: 30px;
+.area-image {
+    margin-top: 30px;
 }
 
-.area-image img{
+.area-image img {
     width: 100%;
 }
 
-.area-image p{
+.area-image p {
     font-size: 0.7em;
-    
+
 }
 
-.text-left-image{
+.text-left-image {
     postion: relative;
-    left:0;
+    left: 0;
 }
 
 /*---------------------------------------------------Testimonies Styles*/
 
 /*---------------------------------------------------Contact Me Styles*/
 
+.container-contact {
+    background-color: whitesmoke;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
 /*----------------------------------------------------**ABOUT.HTML STYLES*/
 
 /*----------------------------------------------------Instructor Styles*/
 
-.container-instructor{
-   
-}
+.container-instructor {}
 
 /*----------------------------------------------------**LESSON-PRICING.HTML STYLES*/
+
 /*---------------------------------------------------- Packages*/
-.panel-top-border{
+
+.panel-top-border {
     border-top: 1px solid;
 }
 
@@ -256,25 +285,45 @@ font-weight: bold;
 /*----------------------------------------------------**LEARNING-TO-DRIVE.HTML STYLES*/
 
 /*----------------------------------------------------**CONTACT.HTML STYLES*/
+
 /*----------------------------------------------------Contact Details*/
-.contact-text{
+
+.contact-text {
     margin-left: 5px;
 }
 
-.contact-information{
+.contact-information {
     list-style: none;
     padding: 0px;
-    
+
 }
 
-.contact-information ul li{
+.contact-information ul li {
     text-decoration: none;
 }
 
-.details-container{
+.details-container {
     border: 1px solid black;
     background-color: #ebe8e8;
 }
+
+.btn-submit{
+    background-color: #9191b9;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*---------------------------------------------------Media Queries*/
+
+
+
+
+
+
+
+
+
+
 
 
 
