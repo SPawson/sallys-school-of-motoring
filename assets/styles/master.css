@@ -8,6 +8,7 @@
 
 blockquote{
         border-left: 5px solid #8554c640;
+        
       
 }
 /*---------------------------------------------------Special Paddings/Margins/Text*/
@@ -17,12 +18,12 @@ blockquote{
 }
 
 p{
-    font-size: 1.3em;
+    font-size: 18px;
     color: black;
 }
 
 blockquote{
-    font-size: 1.1em;
+    font-size: 18px;
 }
 
 h1,
@@ -291,6 +292,23 @@ footer p a {
 .vehicle-image{
     margin: 25px 0px;
     width: 100%;
+}
+
+/*----------------------------------------------------Other Services Styles*/
+
+
+.service{
+    border: 1px solid gray;
+    margin-right: 6px;
+    white-space: no-wrap;
+    padding: 10px;
+}
+.features-container a{
+    color: white;
+}
+
+.btn-readmore{
+    background-color: #7a5cac;
 }
 
 /*----------------------------------------------------**LESSON-PRICING.HTML STYLES*/
