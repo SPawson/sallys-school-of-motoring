@@ -17,7 +17,7 @@ blockquote{
     margin-top: 55px;
 }
 
-p{
+body p{
     font-size: 18px;
     color: black;
 }
@@ -33,6 +33,7 @@ h4,
 h5,
 h6 {
     margin-bottom: 28px;
+    color: #464663;
 }
 
 .section-margin {
@@ -354,7 +355,37 @@ footer p a {
 }
 
 
+.price-block{
+    border: 1px solid purple;
+    margin-bottom: 45px;
+}
+
+.header{
+    color: #7a5cac;
+    font-weight: bold;
+    
+}
+
+.btn-book-now{
+    background-color: #7a5cac;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
 /*----------------------------------------------------**LEARNING-TO-DRIVE.HTML STYLES*/
+
+.container-alt{
+    background-color: rgb(240, 244, 247);
+}
+
+
+
+
+
 
 /*----------------------------------------------------**CONTACT.HTML STYLES*/
 
