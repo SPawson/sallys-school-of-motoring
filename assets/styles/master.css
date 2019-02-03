@@ -37,7 +37,7 @@ h6 {
 }
 
 .section-margin {
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 
 }
 
@@ -378,6 +378,9 @@ footer p a {
 
 /*----------------------------------------------------**LEARNING-TO-DRIVE.HTML STYLES*/
 
+.container-learn-drive{
+    margin-bottom: 15px;
+}
 .container-alt{
     background-color: rgb(240, 244, 247);
 }
@@ -422,7 +425,12 @@ footer p a {
         width: 600px;
         height: 400px;
     }
+    
+    .learn-to-image{
+        height:500px;
+    }
 }
+
 
 
 
