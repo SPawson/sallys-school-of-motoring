@@ -449,6 +449,7 @@ font-size: 20px;
 .details-container {
     border: 1px solid purple;
     background-color: white;
+    margin-top: 15px;
 }
 
 
