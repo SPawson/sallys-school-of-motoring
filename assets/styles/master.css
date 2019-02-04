@@ -41,6 +41,10 @@ h6 {
 
 }
 
+.text-muted{
+    color: #343333;
+}
+
 
 /*---------------------------------------------------Navigation Styles*/
 
@@ -197,6 +201,10 @@ footer p a {
     padding: 10px;
 }
 
+.jumbotron h1{
+    color: #3b393f;
+}
+
 .callout-title {
     margin-top: 45px;
     font-weight: bold;
@@ -205,12 +213,13 @@ footer p a {
 
 .jumbotron .divider {
     width: 20%;
-    margin: 35px auto;
+    margin: 25px auto;
     border-top: 2px solid #413d3d;
 }
 
 .callout-subtext {
     margin-top: 46px;
+    color: #3b393f;
 }
 
 .btn-cta {
@@ -415,6 +424,7 @@ footer p a {
 
 .btn-submit{
     background-color: #9191b9;
+    color: white;
     font-weight: bold;
     font-size: 16px;
 }
