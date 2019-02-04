@@ -11,9 +11,10 @@ container-fluid,container { height:100%; }
 
 blockquote{
         border-left: 5px solid #8554c640;
-        
       
 }
+
+
 /*---------------------------------------------------Special Paddings/Margins/Text*/
 
 .container-top {
@@ -46,6 +47,10 @@ h6 {
 
 .text-muted{
     color: #343333;
+}
+
+.container-alt{
+    background-color: rgb(240, 244, 247);
 }
 
 
@@ -398,9 +403,7 @@ font-size: 20px;
 .container-learn-drive{
     margin-bottom: 15px;
 }
-.container-alt{
-    background-color: rgb(240, 244, 247);
-}
+
 
 
 
