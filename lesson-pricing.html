@@ -20,7 +20,7 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">Sallys School Of Motoring</a>
+                <a href="index.html" class="navbar-brand">Sallys School Of Motoring</a>
 
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                         <span class="sr-only">Toggle Navigation</span>
@@ -49,8 +49,7 @@
                 <h2 class="text-uppercase">Lesson Pricing</h2>
             </div>
             <div class="col-xs-12">
-                <p>I offer a variety of flexible lesson packages tailored to fit your needs. Please
-                see below for further details.
+                <p>I offer a variety of flexible lesson packages tailored to fit your needs. Please see below for further details.
                 </p>
             </div>
         </div>
@@ -74,9 +73,9 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-xs-12 col-md-4 panel-margin">
-                 <div class="price-block">
+                <div class="price-block">
                     <div class="header">
                         <h2>Package A</h2>
                     </div>
@@ -90,13 +89,13 @@
                         <p>Cost per hour: £21.00</p>
                     </div>
                     <div class="">
-                        <button class="btn btn-purple" href="">Book Now</button>
+                        <button class="btn btn-purple" data-toggle="modal" data-target="#BookModal">Book Now</button>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-xs-12 col-md-4 panel-margin">
-                 <div class="price-block">
+                <div class="price-block">
                     <div class="header">
                         <h2>Package B</h2>
                     </div>
@@ -113,8 +112,8 @@
                         <button class="btn btn-purple" href="">Book Now</button>
                     </div>
                 </div>
-            
-        </div>
+
+            </div>
     </section>
 
 
@@ -125,7 +124,7 @@
                 <div class="col-xs-12 col-md-4 contact">
                     <h4 class="footer-heading">Contact</h4>
                     <ul class="contact-information">
-                    <li>
+                        <li>
                             <strong><i class="fas fa-mobile-alt icon"></i> Mobile:</strong>
                             <span class="contact-text">07957 934193</span>
                         </li>
@@ -154,10 +153,9 @@
                 <div class="col-xs-12 col-md-4 social">
                     <h4 class="footer-heading">Social</h4>
                     <ul class="social-links">
-                       <li><a target="_blank" href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a target="_blank" href=""><i class="fab fa-facebook-f"></i></a></li>
                         <li><a target="_blank" href=""><i class="fas fa-envelope"></i></a></li>
-                        <li><a target="_blank" href=""><i class="fab fa-youtube"></i></a></li
-                    </ul>
+                        <li><a target="_blank" href=""><i class="fab fa-youtube"></i></a></li </ul>
                 </div>
             </div>
         </div>
@@ -175,7 +173,44 @@
 
     </footer>
 
-
+    <div class="modal fade" id="BookModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Book Now</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstname">Firstname</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="Enter your firstname">
+                        </div>
+                         <div class="form-group">
+                            <label for="password">Surname</label>
+                            <input type="text" class="form-control" id="surname" placeholder="Enter your surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We will never share your personal details with any other party</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number">Contact Number</label>
+                            <input type="text" class="form-control" id="contact-number" placeholder="Enter your contact number">
+                        </div>
+                        <div class="form-group">
+                            <label for="additional-information">Additional Information</label>
+                            <textarea rows="5" name="additional-information" class="form-control" id="additional-information" placeholder="Please provide any additonal details e.g. location, available days etc" required></textarea>
+                        </div>
+                       
+                        
+                        <button type="submit" class="btn btn--orange">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-----------------------------------------------------Javascript/JQuery for navigation dropdown-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

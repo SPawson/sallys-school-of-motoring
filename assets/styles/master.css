@@ -37,7 +37,8 @@ h4,
 h5,
 h6 {
     margin-bottom: 28px;
-    color: #464663;
+    color: #523f61;
+    
 }
 
 .section-margin {
@@ -50,7 +51,7 @@ h6 {
 }
 
 .container-alt{
-    background-color: rgb(240, 244, 247);
+    background-color: #c8c5dcd9;
 }
 
 
@@ -77,7 +78,24 @@ h6 {
     margin-bottom: 10px;
 }
 
+.btn-cta{
+    
+    background-color: #605858;
+    font-weight: bold;
+    margin: 10px 0;
+    color: white;
+    font-size: 20px;
+}
 
+.btn-cta:hover,
+.btn-cta:focus,
+.btn-cta:active,
+.btn-cta:active:focus {
+
+    background-color: #908585;
+    color: white;
+
+}
 /*---------------------------------------------------Navigation Styles*/
 
 .navbar {
@@ -256,25 +274,6 @@ footer p a {
 
 button .btn .btn-cta{
 font-size: 20px;
-}
-.btn-cta {
-
-    background-color: white;
-    font-weight: bold;
-    margin: 10px 0;
-    
-}
-
-
-.btn-cta:hover,
-.btn-cta:focus,
-.btn-cta:active,
-.btn-cta:active:focus {
-
-    background-color: #f1f1f1;
-    font-weight: bold;
-
-
 }
 
 /*---------------------------------------------------Learn To Drive With Sally Styles*/
