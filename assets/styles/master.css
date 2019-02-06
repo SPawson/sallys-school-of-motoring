@@ -6,12 +6,19 @@
     padding: 0;
 }
 
-html, body { height:100%; }
-container-fluid,container { height:100%; }
+html,
+body {
+    height: 100%;
+}
 
-blockquote{
-        border-left: 5px solid #8554c640;
-      
+container-fluid,
+container {
+    height: 100%;
+}
+
+blockquote {
+    border-left: 5px solid #8554c640;
+
 }
 
 
@@ -21,12 +28,12 @@ blockquote{
     margin-top: 55px;
 }
 
-body p{
+body p {
     font-size: 18px;
     color: black;
 }
 
-blockquote{
+blockquote {
     font-size: 18px;
 }
 
@@ -38,7 +45,7 @@ h5,
 h6 {
     margin-bottom: 28px;
     color: #523f61;
-    
+
 }
 
 .section-margin {
@@ -46,17 +53,17 @@ h6 {
 
 }
 
-.text-muted{
+.text-muted {
     color: #343333;
 }
 
-.container-alt{
+.container-alt {
     background-color: #c8c5dcd9;
 }
 
 
 
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,13 +71,14 @@ h6 {
 
 /*---------------------------------------------------Icons*/
 
-.icon{
+.icon {
     margin-right: 5px;
 }
 
 
 /*---------------------------------------------------Buttons*/
-.btn-purple{
+
+.btn-purple {
     background-color: #7a5cac;
     color: white;
     font-size: 18px;
@@ -78,8 +86,8 @@ h6 {
     margin-bottom: 10px;
 }
 
-.btn-cta{
-    
+.btn-cta {
+
     background-color: #605858;
     font-weight: bold;
     margin: 10px 0;
@@ -96,6 +104,7 @@ h6 {
     color: white;
 
 }
+
 /*---------------------------------------------------Navigation Styles*/
 
 .navbar {
@@ -148,330 +157,265 @@ h6 {
     font-size: 1.1em;
 }
 
-/*---------------------------------------------------Footer Styles*/
-
-footer {
-    background-color: #464663;
-    color: white;
+.navbar-default .navbar-collapse {
+    background-color: #624b88;
 }
 
-.footer-top {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.footer-top .footer-heading {
-    text-weight: bold;
-    font-size: 1.7em;
-    color: white;
-}
-
-.footer-text {
-    margin-left: 5px;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0px;
-}
-
-footer ul li {
-    text-decoration: none;
-}
-
-footer ul li a,
-footer p a {
-    color: white;
-}
-
-.social-links li {
-    display: inline-block;
-}
-
-.social {
-    margin-bottom: 20px;
-}
-
-.social-links {
-    margin-top: 10px;
-}
-
-.social-links li a i {
-    width: 40px;
-    height: 40px;
-    padding: 20px 0;
-    border-radius: 50%;
-    font-size: 20px;
-    line-height: 0px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    margin: 0px 5px;
-}
-
-
-.footer-bottom {
-    border-top: solid 1px #fafafa;
-    padding: 5px;
-}
-
-.copyright p{
-    color: white;
-}
-/*----------------------------------------------------**INDEX.HTML STYLES*/
-
-/*---------------------------------------------------Callout Styles*/
-
-/*Code snippet taken from =""*/
-
-.callout-container {
-    height: 90vh;
-    background: url(../images/callout/driving-image--hi-op.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.jumbotron {
-    margin-top: 10%;
-    background-color: #c8c5dcd9;
-    color: #413d3d;
-    width: 85%;
-    height: 70%;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-.jumbotron h1{
-    color: #3b393f;
-}
-
-.callout-title {
-    margin-top: 45px;
-    font-weight: bold;
-}
-
-
-.jumbotron .divider {
-    width: 20%;
-    margin: 25px auto;
-    border-top: 2px solid #413d3d;
-}
-
-.callout-subtext {
-    margin-top: 46px;
-    color: #3b393f;
-}
-
-button .btn .btn-cta{
-font-size: 20px;
-}
-
-/*---------------------------------------------------Learn To Drive With Sally Styles*/
-
-.learn-sally-container {
-    background-color: white;
-}
-
-
-/*---------------------------------------------------Area Covered Styles*/
-
-.areas-covered-container {
-    background-color: #46466326;
-    padding: 10px;
-}
-
-.area-image {
-    margin-top: 30px;
-}
-
-.area-image img {
-    width: 100%;
-}
-
-.area-image p {
-    font-size: 0.7em;
-
-}
-
-.text-left-image {
-    postion: relative;
-    left: 0;
-}
-
-/*---------------------------------------------------Testimonies Styles*/
-
-/*---------------------------------------------------Contact Me Styles*/
-
-.container-contact {
-    background-color: #46466326;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 80%;
-}
-
-/*----------------------------------------------------**ABOUT.HTML STYLES*/
-
-/*----------------------------------------------------Instructor Styles*/
-
-.container-instructor {
-    
-}
-
-/*----------------------------------------------------Vehicles Styles*/
-.container-vehicles {
-    background-color: #46466326;
-}
-
-.vehicle-image{
-    margin: 25px 0px;
-    width: 100%;
-}
-
-/*----------------------------------------------------Other Services Styles*/
-
-
-.service{
-    border: 1px solid gray;
-    margin-right: 6px;
-    white-space: no-wrap;
-    padding: 10px;
-}
-.features-container a{
-    color: white;
-}
-
-.btn-readmore{
-    background-color: #7a5cac;
-}
-
-/*----------------------------------------------------**LESSON-PRICING.HTML STYLES*/
-
-/*---------------------------------------------------- Packages*/
-
-.panel-top-border {
-    border-top: 1px solid;
-}
-
-.panel-row{
-    margin-top: 20px;
-}
-
-.panel-margin{
-    margin-top: 15px;
-}
-
-.panel-basic{
-    border-color: black;
-}
-
-.panel-heading>h3{
-    font-weight: bold;
-}
-.panel-basic>.panel-heading-standard {
-    color: #fff;
-    background-color: #7e6e98;
-    border-color:1px solid black;
-}
-
-
-.panel-basic> .panel-heading-a {
-    color: #fff;
-    background-color: #329ba5;
-    border-color:1px solid black;
-}
-
-.panel-basic> .panel-heading-b {
-    color: #fff;
-    background-color: #c2a248;
-    border-color:1px solid black;
-}
-
-
-.price-block{
-    border: 1px solid purple;
-    border-radius: 5px;
-    margin-bottom: 45px;
-}
-
-.header{
-    color: #7a5cac;
-    font-weight: bold;
-    
-}
-
-
-
-
-/*----------------------------------------------------**LEARNING-TO-DRIVE.HTML STYLES*/
-
-.container-learn-drive{
-    margin-bottom: 15px;
-}
-
-
-
-
-
-
-
-/*----------------------------------------------------**CONTACT.HTML STYLES*/
-
-/*----------------------------------------------------Contact Details*/
-
-.contact-text {
-    margin-left: 5px;
-}
-
-.contact-information {
-    list-style: none;
-    padding: 0px;
-
-}
-
-.contact-information li {
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
-.details-container {
-    border: 1px solid purple;
-    background-color: white;
-    margin-top: 15px;
-}
-
-
-.btn-submit{
-    background-color: #9191b9;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-
-/*---------------------------------------------------Media Queries*/
-@media(min-width: 768px){
-    .vehicle-image{
-        width: 600px;
-        height: 400px;
+    /*---------------------------------------------------Footer Styles*/
+    footer {
+        background-color: #464663;
+        color: white;
     }
-    
-    .learn-to-image{
-        height:500px;
+
+    .footer-top {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
     }
-}
+
+    .footer-top .footer-heading {
+        text-weight: bold;
+        font-size: 1.7em;
+        color: white;
+    }
+
+    .footer-text {
+        margin-left: 5px;
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    footer ul li {
+        text-decoration: none;
+    }
+
+    footer ul li a,
+    footer p a {
+        color: white;
+    }
+
+    .social-links li {
+        display: inline-block;
+    }
+
+    .social {
+        margin-bottom: 20px;
+    }
+
+    .social-links {
+        margin-top: 10px;
+    }
+
+    .social-links li a i {
+        width: 40px;
+        height: 40px;
+        padding: 20px 0;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 0px;
+        text-align: center;
+        color: #fafafa;
+        background: #8f8f8f;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        margin: 0px 5px;
+    }
+
+
+    .footer-bottom {
+        border-top: solid 1px #fafafa;
+        padding: 5px;
+    }
+
+    .copyright p {
+        color: white;
+    }
+    /*----------------------------------------------------**INDEX.HTML STYLES*/
+    /*---------------------------------------------------Callout Styles*/
+    /*Code snippet taken from =""*/
+    .callout-container {
+        height: 90vh;
+        background: url(../images/callout/driving-image--hi-op.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jumbotron {
+        margin-top: 10%;
+        background-color: #c8c5dcd9;
+        color: #413d3d;
+        width: 85%;
+        height: 70%;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .jumbotron h1 {
+        color: #3b393f;
+    }
+
+    .callout-title {
+        margin-top: 45px;
+        font-weight: bold;
+    }
+
+
+    .jumbotron .divider {
+        width: 20%;
+        margin: 25px auto;
+        border-top: 2px solid #413d3d;
+    }
+
+    .callout-subtext {
+        margin-top: 46px;
+        color: #3b393f;
+    }
+
+    button .btn .btn-cta {
+        font-size: 20px;
+    }
+
+    /*---------------------------------------------------Learn To Drive With Sally Styles*/
+    .learn-sally-container {
+        background-color: white;
+    }
+
+
+    /*---------------------------------------------------Area Covered Styles*/
+    .areas-covered-container {
+        background-color: #46466326;
+        padding: 10px;
+    }
+
+    .area-image {
+        margin-top: 30px;
+    }
+
+    .area-image img {
+        width: 100%;
+    }
+
+    .area-image p {
+        font-size: 0.7em;
+
+    }
+
+    .text-left-image {
+        postion: relative;
+        left: 0;
+    }
+
+    /*---------------------------------------------------Testimonies Styles*/
+    /*---------------------------------------------------Contact Me Styles*/
+    .container-contact {
+        background-color: #46466326;
+    }
+
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    /*----------------------------------------------------**ABOUT.HTML STYLES*/
+    /*----------------------------------------------------Instructor Styles*/
+    .container-instructor {}
+
+    /*----------------------------------------------------Vehicles Styles*/
+    .container-vehicles {
+        background-color: #46466326;
+    }
+
+    .vehicle-image {
+        margin: 25px 0px;
+        width: 100%;
+    }
+
+    /*----------------------------------------------------Other Services Styles*/
+    .service {
+        border: 1px solid gray;
+        margin-right: 6px;
+        white-space: no-wrap;
+        padding: 10px;
+    }
+    .features-container a {
+        color: white;
+    }
+
+    .btn-readmore {
+        background-color: #7a5cac;
+    }
+
+    /*----------------------------------------------------**LESSON-PRICING.HTML STYLES*/
+    /*---------------------------------------------------- Packages*/
+    .panel-top-border {
+        border-top: 1px solid;
+    }
+
+    .panel-row {
+        margin-top: 20px;
+    }
+
+    .panel-margin {
+        margin-top: 15px;
+    }
+
+    .panel-basic {
+        border-color: black;
+    }
+
+    .panel-heading>h3 {
+        font-weight: bold;
+    }
+    .panel-basic>.panel-heading-standard {
+        color: #fff;
+        background-color: #7e6e98;
+        border-color: 1px solid black;
+    }
+
+
+    .panel-basic>.panel-heading-a {
+        color: #fff;
+        background-color: #329ba5;
+        border-color: 1px solid black;
+    }
+
+    .panel-basic>.panel-heading-b {
+        color: #fff;
+        background-color: #c2a248;
+        border-color: 1px solid black;
+    }
+
+
+    .price-block {
+        border: 1px solid purple;
+        border-radius: 5px;
+        margin-bottom: 45px;
+    }
+
+    .header {
+        color: #7a5cac;
+        font-weight: bold;
+
+    }
+
+
+
+
+    /*----------------------------------------------------**LEARNING-TO-DRIVE.HTML STYLES*/
+    .container-learn-drive {
+        margin-bottom: 15px;
+    }
 
 
 
@@ -479,11 +423,51 @@ font-size: 20px;
 
 
 
+    /*----------------------------------------------------**CONTACT.HTML STYLES*/
+    /*----------------------------------------------------Contact Details*/
+    .contact-text {
+        margin-left: 5px;
+    }
+
+    .contact-information {
+        list-style: none;
+        padding: 0px;
+
+    }
+
+    .contact-information li {
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
+    .details-container {
+        border: 1px solid purple;
+        background-color: white;
+        margin-top: 15px;
+    }
 
 
+    .btn-submit {
+        background-color: #9191b9;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
 
 
+    /*---------------------------------------------------Media Queries*/
+    @media(min-width: 768px) {
+        .vehicle-image {
+            width: 600px;
+            height: 400px;
+        }
+
+        .learn-to-image {
+            height: 500px;
+        }
 
 
-
-
+        .navbar-default .navbar-collapse {
+            background-color: transparent;
+        }
+    }
