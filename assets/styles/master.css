@@ -58,7 +58,7 @@ h6 {
 }
 
 .container-alt {
-    background-color: #c8c5dcd9;
+    background-color: #f1f1f1;
 }
 
 
@@ -67,6 +67,10 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.margin-top{
+    margin-top: 45px;
 }
 
 /*---------------------------------------------------Icons*/
@@ -316,6 +320,10 @@ h6 {
     }
 
     /*---------------------------------------------------Testimonies Styles*/
+    blockquote footer{
+        background-color: #fff;
+    }
+    
     /*---------------------------------------------------Contact Me Styles*/
     .container-contact {
         background-color: #46466326;
@@ -348,12 +356,25 @@ h6 {
         white-space: no-wrap;
         padding: 10px;
     }
+    
+    .features-container{
+        height: 200px;
+    }
+    
     .features-container a {
         color: white;
+        
     }
 
     .btn-readmore {
         background-color: #7a5cac;
+        
+    }
+    
+    .btn-position{
+       display: flex;
+        align-items: bottom;
+        justify-content: center;
     }
 
     /*----------------------------------------------------**LESSON-PRICING.HTML STYLES*/
