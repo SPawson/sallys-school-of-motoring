@@ -111,8 +111,6 @@ h6 {
 
 /*---------------------------------------------------Dividers*/
 
-
-
 /*---------------------------------------------------Navigation Styles*/
 
 .navbar {
@@ -303,21 +301,22 @@ button .btn .btn-cta {
     background-color: white;
 }
 
-.sally-blockquote{
-    border:  1px solid gray;
+.sally-blockquote {
+    border: 1px solid gray;
     border-radius: 5px;
-    padding:10px 25px 25px 25px;
+    padding: 10px 25px 25px 25px;
     min-height: 124px;
 }
 
-.speech-mark{
+.speech-mark {
     font-weight: bold;
     font-size: 20px;
 }
 
-.image-radius{
+.image-radius {
     border-radius: 2px;
 }
+
 /*---------------------------------------------------Area Covered Styles*/
 
 .areas-covered-container {
@@ -454,9 +453,10 @@ blockquote footer {
 .price-block {
     border: 1px solid purple;
     border-radius: 5px;
-        max-width: 500px;
+    max-width: 500px;
     margin: 0 auto 45px auto;
 }
+
 }
 
 .header {
@@ -535,10 +535,14 @@ blockquote footer {
     .navbar-default .navbar-collapse {
         background-color: transparent;
     }
-    
+
     .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 60%;
-}
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 60%;
+    }
+
+    .carousel-wrapper{
+        width: 600px;
+    }
 }
