@@ -109,6 +109,10 @@ h6 {
 
 }
 
+/*---------------------------------------------------Dividers*/
+
+
+
 /*---------------------------------------------------Navigation Styles*/
 
 .navbar {
@@ -450,7 +454,9 @@ blockquote footer {
 .price-block {
     border: 1px solid purple;
     border-radius: 5px;
-    margin-bottom: 45px;
+        max-width: 500px;
+    margin: 0 auto 45px auto;
+}
 }
 
 .header {
@@ -495,6 +501,7 @@ blockquote footer {
 
 .details-container {
     border: 1px solid purple;
+    border-radius: 3px;
     background-color: white;
     margin-top: 15px;
 }
@@ -528,4 +535,10 @@ blockquote footer {
     .navbar-default .navbar-collapse {
         background-color: transparent;
     }
+    
+    .center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 60%;
+}
 }
