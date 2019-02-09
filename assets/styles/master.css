@@ -315,7 +315,11 @@ button .btn .btn-cta {
 }
 
 .image-radius {
-    border-radius: 2px;
+    border-radius: 35px;
+}
+
+.sally-image{
+    margin-bottom: 15px;
 }
 
 /*---------------------------------------------------Area Covered Styles*/
@@ -558,4 +562,8 @@ blockquote footer {
     .carousel-wrapper {
         width: 600px;
     }
+}
+
+@media(max-width: 399px){
+    
 }
