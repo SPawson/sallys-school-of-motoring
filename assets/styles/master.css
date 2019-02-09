@@ -343,16 +343,16 @@ button .btn .btn-cta {
     left: 0;
 }
 
-.carousel-position{
+.carousel-position {
     margin: 15px auto 0px auto;
 }
 
-.carousel-footer{
+.carousel-footer {
     color: white;
     margin-bottom: 0px;
 }
 
-.carousel-caption{
+.carousel-caption {
     padding-bottom: 0px
 }
 
@@ -399,14 +399,13 @@ blockquote footer {
     white-space: no-wrap;
     padding: 10px;
 }
-
-.features-container {
-    height: 200px;
+.feature{
+    margin-bottom: 20px;
 }
+
 
 .features-container a {
     color: white;
-
 }
 
 .btn-readmore {
@@ -556,7 +555,7 @@ blockquote footer {
         max-width: 60%;
     }
 
-    .carousel-wrapper{
+    .carousel-wrapper {
         width: 600px;
     }
 }
