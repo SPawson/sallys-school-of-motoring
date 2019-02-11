@@ -571,8 +571,15 @@ blockquote footer {
         max-width: 80%;
     }
 
-.embed-responsive-item{
-    width:80%;
-    height:50%;
-}
+    .embed-responsive-item {
+        width: 80%;
+        height: 50%;
+    }
+
+    .container-center-40 {
+        padding: 15px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
 }
