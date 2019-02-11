@@ -367,7 +367,7 @@ blockquote footer {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 /*----------------------------------------------------**ABOUT.HTML STYLES*/
@@ -554,8 +554,11 @@ blockquote footer {
     .carousel-wrapper {
         width: 600px;
     }
+    
+    .center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 80%;
+}
 }
 
-@media(max-width: 399px){
-    
-}
