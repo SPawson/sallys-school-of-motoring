@@ -17,6 +17,7 @@ container {
 }
 
 /*--------------------------------------------------Common Styles*/
+
 blockquote {
     border-left: 5px solid #8554c640;
 
@@ -170,7 +171,8 @@ h6 {
 }
 
 .navbar-default .navbar-collapse {
-    background-color: #624b88;
+    background-color: #5d4b88;
+    border-color: #5d4b88;
 }
 
 /*---------------------------------------------------Footer Styles*/
@@ -323,7 +325,7 @@ button .btn .btn-cta {
     border-radius: 35px;
 }
 
-.sally-image{
+.sally-image {
     margin-bottom: 15px;
 }
 
@@ -408,7 +410,8 @@ blockquote footer {
     white-space: no-wrap;
     padding: 10px;
 }
-.feature{
+
+.feature {
     margin-bottom: 20px;
 }
 
@@ -506,7 +509,6 @@ blockquote footer {
 
 /*----------------------------------------------------Contact Details*/
 
-
 .details-container {
     border: 1px solid purple;
     border-radius: 3px;
@@ -525,11 +527,11 @@ blockquote footer {
 .contact-information li {
     text-decoration: none;
     margin-bottom: 10px;
-    
+
 }
 
-.contact-page{
-   font-size: 17px; 
+.contact-page {
+    font-size: 17px;
 }
 
 /*---------------------------------------------------Media Queries*/
@@ -562,11 +564,15 @@ blockquote footer {
     .carousel-wrapper {
         width: 600px;
     }
-    
-    .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 80%;
-}
-}
 
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+.embed-responsive-item{
+    width:80%;
+    height:50%;
+}
+}
