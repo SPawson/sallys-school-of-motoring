@@ -108,8 +108,8 @@ h6 {
 .btn-purple:hover,
 .btn-purple:focus,
 .btn-purple:active,
-.btn-purple:active:focus{
-    color: #d3d3d3 ;
+.btn-purple:active:focus {
+    color: #d3d3d3;
 }
 
 .btn-cta {
@@ -125,10 +125,7 @@ h6 {
 .btn-cta:focus,
 .btn-cta:active,
 .btn-cta:active:focus {
-
-    background-color: #908585;
-    color: white;
-
+    color: #d3d3d3;
 }
 
 /*---------------------------------------------------Dividers*/
@@ -181,8 +178,7 @@ h6 {
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:active,
-.navbar-default .navbar-nav>li>a:active:focus
-{
+.navbar-default .navbar-nav>li>a:active:focus {
     color: #d3d3d3;
 }
 
@@ -276,6 +272,7 @@ footer p a {
 .callout-container {
     height: 90vh;
     background: url(../images/callout/driving-image--hi-op.jpg) no-repeat center center fixed;
+    background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
