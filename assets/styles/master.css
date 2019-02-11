@@ -16,10 +16,23 @@ container {
     height: 100%;
 }
 
+/*--------------------------------------------------Common Styles*/
 blockquote {
     border-left: 5px solid #8554c640;
 
 }
+
+.contact-text {
+    margin-left: 5px;
+}
+
+.contact-information {
+    list-style: none;
+    padding: 0px;
+
+}
+
+
 
 
 /*---------------------------------------------------Special Paddings/Margins/Text*/
@@ -493,20 +506,6 @@ blockquote footer {
 
 /*----------------------------------------------------Contact Details*/
 
-.contact-text {
-    margin-left: 5px;
-}
-
-.contact-information {
-    list-style: none;
-    padding: 0px;
-
-}
-
-.contact-information li {
-    text-decoration: none;
-    margin-bottom: 10px;
-}
 
 .details-container {
     border: 1px solid purple;
@@ -523,6 +522,15 @@ blockquote footer {
     font-size: 16px;
 }
 
+.contact-information li {
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
+
+.contact-page{
+   font-size: 17px; 
+}
 
 /*---------------------------------------------------Media Queries*/
 
