@@ -84,7 +84,7 @@ h6 {
 /*---------------------------------------------------Buttons*/
 
 .btn-purple {
-    background-color: #7a5cac;
+    background-color: #464663;
     color: white;
     font-size: 18px;
     margin-top: 10px;
@@ -127,14 +127,6 @@ h6 {
     border-radius: 0%;
 
 }
-
-/*.navbar-default .navbar-collapse{
-    border-top-color: #fff;
-    position: relative;
-    top: -1;
-    left: 0;
-    z-index: -1;
-}*/
 
 .navbar .navbar-brand {
     height: 50px;
@@ -468,7 +460,7 @@ blockquote footer {
 
 
 .price-block {
-    border: 1px solid purple;
+    border: 1px solid #464663;
     border-radius: 5px;
     max-width: 500px;
     margin: 0 auto 45px auto;
