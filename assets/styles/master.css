@@ -105,6 +105,13 @@ h6 {
     margin-bottom: 10px;
 }
 
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple:active:focus{
+    color: #d3d3d3 ;
+}
+
 .btn-cta {
 
     background-color: #605858;
