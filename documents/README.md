@@ -139,6 +139,56 @@ The project uses Bootstrap 3.3.7 framework and a variety of imported classes  in
 <li><a href="https://www.google.com/">https://www.google.com</a></li>
 </ul>
 
+<hr>
+
 <h2>Testing</h2>
+<p>All testing that I have completed in regards to the user story can be viewed on a separate document <a href="Testing/Testing.md">here</a></p>
+
+<h3>Issues Encountered</h3>
+<p>Throughout the course of completing my testing I found a few issues which I have detailed below:</p>
+<ul>
+<li>I encountered an issue when viewing the website on Internet explorer 9 that the grey colour used to separate each section on a page would not load correctly. I also found this was the same with the jumbotron colour. 
+</li>
+<li>
+I encountered an issue where the collapsible nav menu displayed its border colour on the desktop version of the nav menu. This would appear as an outline colour which did not look appealing.
+</li>
+<li>
+I encountered an issue with the footer not displaying correctly on the desktop version of the website and some content was over spilling the footer container.
+</li>
+
+
+<li>
+I encountered an issue when testing with W3 validator with my modal where one of the fields on the form had an error in relation to a label not matching up with the corresponding field.
+</li>
+<li>
+When testing through the webpages, I identified that I hadn’t put in aria labels into various elements
+</li>
+<li>
+I found when testing the site on safari that the background image on the callout section would not load properly and was really zoomed in.
+</li>
+</ul>
+<h3>Steps taken to resolve issues</h3>
+<ul>
+<li>
+I found that the hex code I had used for the colour of my section backgrounds were not compatible with IE. This was due to me using opacity on the colour which meant that IE was not able to display this. In order to resolve this issue, I changed the hex code, and this now works as intended.
+</li>
+<li>
+I added a media query for screen sizes over 768px which prevented the collapsible nav menu from having any color properties. This resolved the issue as the menu no longer showed on large screen solving the issue.
+</li>
+<li>
+I found when testing my code on W3 validator that I had some open div tags in the footer. This is what was allowing the content to overspill at the bottom of the page. I added the closing tags and this rectified the problem.
+</li>
+<li>
+I rectified the issue by making sure the label name matched the name in the input section which resolved the issue.
+</li>
+<li>
+I went through all elements on the various pages and have added aria labels where appropriate.
+</li>
+<li>
+Through research, I discovered that this is a known issue with safari currently and can happen with large background images. In order to rectify this I had to set the background attachment to scroll and this then resolved the issue.
+</li>
+
+</ul>
+
 
 
