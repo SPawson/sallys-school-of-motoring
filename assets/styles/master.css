@@ -19,7 +19,7 @@ container {
 /*--------------------------------------------------Common Styles*/
 
 blockquote {
-    border-left: 5px solid #8554c640;
+    border-left: 5px solid #e7dff1;
 
 }
 
@@ -171,7 +171,7 @@ h6 {
 
 .navbar-default .navbar-nav>li>a {
     color: #fafafa;
-    font-size: 1.1em;
+    font-size: 1.2em;
     #d3d3d3
 }
 
@@ -183,8 +183,13 @@ h6 {
 }
 
 .navbar-default .navbar-collapse {
-    background-color: #5d4b88;
-    border-color: #5d4b88;
+    background-color: #59508f;
+    border: 2px solid #59508f;
+}
+
+.container-fluid>.navbar-collapse{
+    margin-left: -17px;
+    margin-right: -17px;
 }
 
 /*---------------------------------------------------Footer Styles*/
@@ -267,7 +272,7 @@ footer p a {
 
 /*---------------------------------------------------Callout Styles*/
 
-/*Code snippet taken from =""*/
+/*Code snippet taken from: ""*/
 
 .callout-container {
     height: 90vh;
@@ -284,8 +289,8 @@ footer p a {
 
 .jumbotron {
     margin-top: 10%;
-    background-color: #c8c5dcd9;
-    color: #413d3d;
+    background-color: #c8c5dc;
+    color: #c3c1d4;
     width: 100%;
     margin-bottom: 15px;
     padding: 10px;
@@ -566,6 +571,7 @@ blockquote footer {
 
     .navbar-default .navbar-collapse {
         background-color: transparent;
+        border: transparent;
     }
 
     .center-form {
