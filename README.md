@@ -22,7 +22,7 @@ Furthermore, it is hoped that through a user’s positive experience with the we
 <p>During the development stage of my project I generated some wireframes for both the mobile and desktop approaches using Balsamiq. Throughout the course of developing the website, I have deviated from the wireframes in certain sections.
 This is mainly due to me discovering a better design during the development, or issues with implementing the feature. </p>
 
-<p>The wireframes have uploaded with the rest of my project and can be viewed <a href="">here.</a></p>
+<p>The wireframes have been uploaded with the rest of my project and can be viewed <a href="documents/Wireframes">here.</a></p>
 
 <h3>User Stories</h3>
 
@@ -34,6 +34,7 @@ This is mainly due to me discovering a better design during the development, or 
 <li>As a customer, I would like to see information about the driving instructor, so I can make a more informed decision.</li>
 <li>As a customer, I would like to see what areas the instructor covers, so that I can see if they provide lessons where I live.</li>
 <li>As a customer, I would like to see customer testimonies to increase my confidence in choosing the driving school for their services.</li>
+<li>As a customer, I would like to view details on learning to drive to instruct me on the various stages of the process.</li>
 </ul>
 
 <hr>
@@ -127,6 +128,8 @@ The project uses Bootstrap 3.3.7 framework and a variety of imported classes  in
 
 <h2>Resources</h2>
 
+<p>Throughout the course of the project I also used the following resources to assist me in creating the website:</p>
+
 <ul>
 <li><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></li>
 <li><a href="https://stackoverflow.com">https://stackoverflow.com</a></li>
@@ -135,5 +138,97 @@ The project uses Bootstrap 3.3.7 framework and a variety of imported classes  in
 <li><a href="https://www.quora.com/">https://www.quora.com</a></li>
 <li><a href="https://www.google.com/">https://www.google.com</a></li>
 </ul>
+
+<hr>
+
+<h2>Testing</h2>
+<p>All testing that I have completed in regards to the user story can be viewed on a separate document <a href="documents/Testing/Testing.md">here</a></p>
+
+<h3>Issues Encountered</h3>
+<p>Throughout the course of completing my testing I found a few issues which I have detailed below:</p>
+<ul>
+<li>I encountered an issue when viewing the website on Internet explorer 9 that the grey colour used to separate each section on a page would not load correctly. I also found this was the same with the jumbotron colour. 
+</li>
+<li>
+I encountered an issue where the collapsible nav menu displayed its border colour on the desktop version of the nav menu. This would appear as an outline colour which did not look appealing.
+</li>
+<li>
+I encountered an issue with the footer not displaying correctly on the desktop version of the website and some content was over spilling the footer container.
+</li>
+
+
+<li>
+I encountered an issue when testing with W3 validator with my modal where one of the fields on the form had an error in relation to a label not matching up with the corresponding field.
+</li>
+<li>
+When testing through the webpages, I identified that I hadn’t put in aria labels into various elements
+</li>
+<li>
+I found when testing the site on safari that the background image on the callout section would not load properly and was really zoomed in.
+</li>
+</ul>
+<h3>Steps taken to resolve issues</h3>
+<ul>
+<li>
+I found that the hex code I had used for the colour of my section backgrounds were not compatible with IE. This was due to me using opacity on the colour which meant that IE was not able to display this. In order to resolve this issue, I changed the hex code, and this now works as intended.
+</li>
+<li>
+I added a media query for screen sizes over 768px which prevented the collapsible nav menu from having any color properties. This resolved the issue as the menu no longer showed on large screen solving the issue.
+</li>
+<li>
+I found when testing my code on W3 validator that I had some open div tags in the footer. This is what was allowing the content to overspill at the bottom of the page. I added the closing tags and this rectified the problem.
+</li>
+<li>
+I rectified the issue by making sure the label name matched the name in the input section which resolved the issue.
+</li>
+<li>
+I went through all elements on the various pages and have added aria labels where appropriate.
+</li>
+<li>
+Through research, I discovered that this is a known issue with safari currently and can happen with large background images. In order to rectify this I had to set the background attachment to scroll and this then resolved the issue.
+</li>
+
+</ul>
+
+<hr>
+
+<h2>Deployment</h2>
+
+<p>I have deployed this project using Github live pages and this can be found here: https://spawson.github.io/sallys-school-of-motoring/</p>
+<hr>
+
+<h2>Credits</h2>
+
+<h3>Image Sources</h3>
+
+<ul>
+
+<li>Landing page callout image taken from <a href="https://www.pexels.com/photo/adult-automotive-blur-car-13861/">Pexels</a></li>
+
+<li>Image Of Sally provided by client</li>
+
+<li>Image Carousel:
+<br>
+a) Image of Castleford taken by <a href="https://www.geograph.org.uk/photo/3009052">Derek Dye</a>
+<br>
+b) Image Of Ferrybridge taken by <a href="https://www.flickr.com/photos/simon2207/27470214732/"> Simon220771 </a>
+<br>
+c) Image of Selby Abbey taken by <a href="https://www.flickr.com/photos/neilt/3488351365">Neil Turner</a>
+</li>
+
+<li>Testimonies images provided by client with permission from the customers</li>
+
+<li>Image on About page of vehicles provided by the client</li>
+
+<li>Learning To Drive image taken from <a href="https://pixabay.com/en/driving-car-navigation-speed-2732934/">Pixabay</a></li>
+
+<h3>Acknowledgements</h3>
+<p>The landing page for my website has been inspired by the Code Institutes 'Whiskey Drop' Lesson</p>
+
+<p>Thank you to members of the Slack community for assistance when I was encountering issues during the development and to my family friends for asssting with the testing of this website.</p>
+
+
+
+
 
 
