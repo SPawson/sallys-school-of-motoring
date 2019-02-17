@@ -49,7 +49,7 @@ This is mainly due to me discovering a better design during the development, or 
 visual feedback is used to illustrate to the user on which page they are on.</p>
 
 <h4>Feature 2 – Jumbotron Call To Action Button</h4>
-<p>A call to action button is featured on the homepage jumbotron which allows users to been navigated straight to the lesson pricing page after they read the jumbotron content.</p>
+<p>A call to action button is featured on the homepage jumbotron which allows users to be navigated straight to the lesson pricing page after they read the jumbotron content.</p>
 
 <h4>Feature 3 – Image Carousel</h4>
 <p>An image carousel is featured on the homepage which allows users to get a visual
@@ -58,13 +58,13 @@ and allowing users to select through the carousel using the glyphicon buttons.</
 
 
 <h4>Feature 4 – Enquiry Form</h4>
-<p>An enquiry form is featured on the homepage and contact page which allows the user to input their information into the contact form. This is then submitted to Sally when the user submits the form using the submit button. Validators are in place to ensure that every field has information entered into it, to reduce the chance of erroneous information being submitted.An image carousel is featured on the homepage which allows users to get a visual
-representation of the areas in which the driving school covers. This is achieved by cycling through local landmarks
-and allowing users to select through the carousel using the glyphicon buttons.</p>
+<p>An enquiry form is featured on the homepage and contact page which allows the user to input their information into the contact form. This is then 
+submitted to Sally when the user submits the form using the submit button. Validators are in place to ensure that every field has information entered into it, to reduce
+the chance of erroneous information being submitted.</p>
 
 <h4>Feature 5 – Embeded Videos</h4>
 <p>Embedded videos are featured on the learning to drive page and this allows the user to play videos related to the content they are reading to further expand this. 
-The user can do this by clicking on the video and then have the option to expand to full screen, to make watching the content easier.</p>
+The user can do this by clicking on the video and then have the option to expand to full screen, to make watching the content easier</p>
 
 <h4>Feature 6 – Book Now Modal</h4>
 <p>A modal is featured on the lesson pricing page and allows the user to activate it, when they press the book now button in the different package blocks.
@@ -221,6 +221,8 @@ c) Image of Selby Abbey taken by <a href="https://www.flickr.com/photos/neilt/34
 <li>Image on About page of vehicles provided by the client</li>
 
 <li>Learning To Drive image taken from <a href="https://pixabay.com/en/driving-car-navigation-speed-2732934/">Pixabay</a></li>
+
+</ul>
 
 <h3>Acknowledgements</h3>
 <p>The landing page for my website has been inspired by the Code Institutes 'Whiskey Drop' Lesson</p>

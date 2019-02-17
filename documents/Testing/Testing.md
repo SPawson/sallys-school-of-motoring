@@ -24,7 +24,7 @@
 <h4>Test 2 – Submit enquiry form on contact page</h4>
 <ol>
 <li> Navigate to the contact page via the navigation menu</li>
-<li> On the index page scroll down to the bottom of the page where the enquiry form is located </li>
+<li> On the contact page scroll down to the bottom of the page where the enquiry form is located </li>
 <li>Enter information into the fields, purposefully missing various fields etc to check the validations work correctly</li>
 <li>Click the submit button and check it submits when buttons is pressed or prevents user if information is incorrect</li>
 <li>Repeat steps for mobile platform </li>
@@ -89,7 +89,7 @@
 <h2>Cross Browser Testing</h2>
 <h3>Method</h3>
 <p>In order to Test my websites cross browser functionality, I used a free online tool know as <a href=”https://www.browserling.com/”>Browserling</a>. I used this tool to Test the website on browsers that I didn’t have access to such as Internet Explorer and Safari.</p>
-<p>On my own laptop, I Tested the website on Google Chrome and Firefox< for function.</p>
+<p>On my own laptop, I Tested the website on Google Chrome and Firefox for function.</p>
 <p>In order to Test the website, I used the following basic method on all browsers to check the function:</p>
 <ol>
 <li>Test all links in the navigation bar to ensure that the links work correctly and take you to the correct page when clicked (on each page)</li>
@@ -117,7 +117,7 @@ a)	Check instructor section loads correctly and displays properly.
 
 b)	Ensured the image on the vehicle section loaded correctly and did not stretch.
 <br>
-c)	Checked that the Testimonies section displayed correctly appropriately for the grid and screen size.
+c)	Checked that the Other Services section displayed correctly and appropriately for the screen size.
 </li>
 
 <li>
