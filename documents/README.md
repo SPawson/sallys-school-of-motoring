@@ -190,5 +190,45 @@ Through research, I discovered that this is a known issue with safari currently 
 
 </ul>
 
+<hr>
+
+<h2>Deployment</h2>
+
+<p>I have deployed this project using Github live pages and this can be found here: https://spawson.github.io/sallys-school-of-motoring/</p>
+<hr>
+
+<h2>Credits</h2>
+
+<h3>Image Sources</h3>
+
+<ul>
+
+<li>Landing page callout image taken from <a href="https://www.pexels.com/photo/adult-automotive-blur-car-13861/">Pexels</a></li>
+
+<li>Image Of Sally provided by client</li>
+
+<li>Image Carousel:
+<br>
+a) Image of Castleford taken by <a href="https://www.geograph.org.uk/photo/3009052">Derek Dye</a>
+<br>
+b) Image Of Ferrybridge taken by <a href="https://www.flickr.com/photos/simon2207/27470214732/"> Simon220771 </a>
+<br>
+c) Image of Selby Abbey taken by <a href="https://www.flickr.com/photos/neilt/3488351365">Neil Turner</a>
+</li>
+
+<li>Testimonies images provided by client with permission from the customers</li>
+
+<li>Image on About page of vehicles provided by the client</li>
+
+<li>Learning To Drive image taken from <a href="https://pixabay.com/en/driving-car-navigation-speed-2732934/">Pixabay</a></li>
+
+<h3>Acknowledgements</h3>
+<p>The landing page for my website has been inspired by the Code Institutes 'Whiskey Drop' Lesson</p>
+
+<p>Thank you to members of the Slack community for assistance when I was encountering issues during the development and to my family friends for asssting with the testing of this website.</p>
+
+
+
+
 
 
