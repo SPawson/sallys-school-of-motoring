@@ -33,9 +33,6 @@ blockquote {
 
 }
 
-
-
-
 /*---------------------------------------------------Special Paddings/Margins/Text*/
 
 .container-top {
@@ -94,7 +91,6 @@ h6 {
     margin-right: 5px;
 }
 
-
 /*---------------------------------------------------Buttons*/
 
 .btn-purple {
@@ -128,7 +124,6 @@ h6 {
     color: #d3d3d3;
 }
 
-/*---------------------------------------------------Dividers*/
 
 /*---------------------------------------------------Navigation Styles*/
 
@@ -172,7 +167,6 @@ h6 {
 .navbar-default .navbar-nav>li>a {
     color: #fafafa;
     font-size: 1.2em;
-    #d3d3d3
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -206,7 +200,6 @@ footer {
 }
 
 .footer-top .footer-heading {
-    text-weight: bold;
     font-size: 1.7em;
     color: white;
 }
@@ -227,6 +220,14 @@ footer ul li {
 footer ul li a,
 footer p a {
     color: white;
+}
+
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a:active:focus{
+    color: #d9d9d9;
+    text-decoration: none;
 }
 
 .social-links li {
@@ -258,7 +259,6 @@ footer p a {
     margin: 0px 5px;
 }
 
-
 .footer-bottom {
     border-top: solid 1px #fafafa;
     padding: 5px;
@@ -272,7 +272,7 @@ footer p a {
 
 /*---------------------------------------------------Callout Styles*/
 
-/*Code snippet taken from: ""*/
+/*Code snippet taken from: "https://css-tricks.com/perfect-full-page-background-image/"*/
 
 .callout-container {
     height: 90vh;
@@ -367,11 +367,6 @@ button .btn .btn-cta {
 
 }
 
-.text-left-image {
-    postion: relative;
-    left: 0;
-}
-
 .carousel-position {
     margin: 15px auto 0px auto;
 }
@@ -405,10 +400,6 @@ blockquote footer {
 
 /*----------------------------------------------------**ABOUT.HTML STYLES*/
 
-/*----------------------------------------------------Instructor Styles*/
-
-.container-instructor {}
-
 /*----------------------------------------------------Vehicles Styles*/
 
 .container-vehicles {
@@ -425,7 +416,6 @@ blockquote footer {
 .service {
     border: 1px solid gray;
     margin-right: 6px;
-    white-space: no-wrap;
     padding: 10px;
 }
 
@@ -441,12 +431,6 @@ blockquote footer {
 .btn-readmore {
     background-color: #7a5cac;
 
-}
-
-.btn-position {
-    display: flex;
-    align-items: bottom;
-    justify-content: center;
 }
 
 /*----------------------------------------------------**LESSON-PRICING.HTML STYLES*/
@@ -469,37 +453,11 @@ blockquote footer {
     border-color: black;
 }
 
-.panel-heading>h3 {
-    font-weight: bold;
-}
-
-.panel-basic>.panel-heading-standard {
-    color: #fff;
-    background-color: #7e6e98;
-    border-color: 1px solid black;
-}
-
-
-.panel-basic>.panel-heading-a {
-    color: #fff;
-    background-color: #329ba5;
-    border-color: 1px solid black;
-}
-
-.panel-basic>.panel-heading-b {
-    color: #fff;
-    background-color: #c2a248;
-    border-color: 1px solid black;
-}
-
-
 .price-block {
     border: 1px solid #464663;
     border-radius: 5px;
     max-width: 500px;
     margin: 0 auto 45px auto;
-}
-
 }
 
 .header {
@@ -509,19 +467,11 @@ blockquote footer {
 }
 
 
-
-
 /*----------------------------------------------------**LEARNING-TO-DRIVE.HTML STYLES*/
 
 .container-learn-drive {
     margin-bottom: 15px;
 }
-
-
-
-
-
-
 
 /*----------------------------------------------------**CONTACT.HTML STYLES*/
 
