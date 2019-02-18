@@ -161,7 +161,7 @@ I encountered an issue with the footer not displaying correctly on the desktop v
 I encountered an issue when testing with W3 validator with my modal where one of the fields on the form had an error in relation to a label not matching up with the corresponding field.
 </li>
 <li>
-When testing through the webpages, I identified that I hadn’t put in aria labels into various elements
+When testing through the webpages, I identified that I hadn’t put in aria labels into various elements.
 </li>
 <li>
 I found when testing the site on safari that the background image on the callout section would not load properly and was really zoomed in.
