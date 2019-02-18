@@ -129,7 +129,7 @@ h6 {
 
 .navbar {
     margin-bottom: 0px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -505,6 +505,12 @@ blockquote footer {
 /*---------------------------------------------------Media Queries*/
 
 @media(min-width: 768px) {
+    .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    
     .jumbotron {
         height: 60%;
     }
