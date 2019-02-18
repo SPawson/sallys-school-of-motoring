@@ -89,7 +89,7 @@
 <h2>Cross Browser Testing</h2>
 <h3>Method</h3>
 <p>In order to Test my websites cross browser functionality, I used a free online tool know as <a href=”https://www.browserling.com/”>Browserling</a>. I used this tool to Test the website on browsers that I didn’t have access to such as Internet Explorer and Safari.</p>
-<p>On my own laptop, I Tested the website on Google Chrome and Firefox for function.</p>
+<p>On my own laptop, I Tested the website on Google Chrome, Firefox and Opera for function.</p>
 <p>In order to Test the website, I used the following basic method on all browsers to check the function:</p>
 <ol>
 <li>Test all links in the navigation bar to ensure that the links work correctly and take you to the correct page when clicked (on each page)</li>
