@@ -6,7 +6,7 @@ business and view testimonies from previous students. </p>
 
 <p>The website also contains a useful page devoted to instructing students on the process of learning to drive and how this can be achieved.</p>
 
-<p>The website can be viewed on Github Live Pages via the following address: https://spawson.github.io/sallys-school-of-motoring/</p>
+<p>The website can be viewed on Github Live Pages via the following address: <a target="_blank" href="https://spawson.github.io/sallys-school-of-motoring/">https://spawson.github.io/sallys-school-of-motoring/</a></p>
 
 <hr>
 
@@ -22,7 +22,7 @@ Furthermore, it is hoped that through a user’s positive experience with the we
 <p>During the development stage of my project I generated some wireframes for both the mobile and desktop approaches using Balsamiq. Throughout the course of developing the website, I have deviated from the wireframes in certain sections.
 This is mainly due to me discovering a better design during the development, or issues with implementing the feature. </p>
 
-<p>The wireframes have been uploaded with the rest of my project and can be viewed <a href="documents/Wireframes">here.</a></p>
+<p>The wireframes have been uploaded with the rest of my project and can be viewed <a target="_blank" href="documents/Wireframes">here.</a></p>
 
 <h3>User Stories</h3>
 
@@ -95,54 +95,54 @@ This would mean more testimonies could be included for display and this would ta
 <h3>HTML, CSS & JavaScript</h3>
 <p>Used as the base languages in this project:</p>
 <ul>
-<li>HTML: <a href="https://www.w3.org/html/">https://www.w3.org/html/</a></li>
-<li>CSS: <a href="https://www.w3.org/Style/CSS/">https://www.w3.org/Style/CSS/</a></li>
-<li>JavaScript: <a href="https://www.w3.org/standards/webdesign/script">https://www.w3.org/standards/webdesign/script</a></li>
+<li>HTML: <a target="_blank" href="https://www.w3.org/html/">https://www.w3.org/html/</a></li>
+<li>CSS: <a target="_blank" href="https://www.w3.org/Style/CSS/">https://www.w3.org/Style/CSS/</a></li>
+<li>JavaScript: <a target="_blank" href="https://www.w3.org/standards/webdesign/script">https://www.w3.org/standards/webdesign/script</a></li>
 </ul>
 
 <h3>Bootstrap</h3>
 <p>
 The project uses Bootstrap 3.3.7 framework and a variety of imported classes  in order assist with implementing the structure, navigation , carousel and modal features seen on the site.
 </p>
-<a href="https://getbootstrap.com/">https://getbootstrap.com/</a>
+<a target="_blank" href="https://getbootstrap.com/">https://getbootstrap.com/</a>
 
 <h3>JQuery</h3>
 <p>The project uses JQuery to help execute certain Bootstrap and JavaScript features such as the collapsible navigation bar and modal functionality.</p>
-<a href="https://jquery.com/">https://jquery.com/</a>
+<a target="_blank" href="https://jquery.com/">https://jquery.com/</a>
 
 <h3>Google Fonts</h3>
 <p>The project uses Google Fonts to provide the ‘News Cycle’ font that is used as the websites main font.</p>
-<a href="https://fonts.google.com/">https://fonts.google.com/</a>
+<a target="_blank" href="https://fonts.google.com/">https://fonts.google.com/</a>
 
 <h3>Font Awesome</h3>
 <p>Used in order to provide a variety of Icons such as the ones used in the social section in the footer.</p>
-<a href="https://fontawesome.com/">https://fontawesome.com/</a>
+<a target="_blank" href="https://fontawesome.com/">https://fontawesome.com/</a>
 
 <h3>Cloud9</h3>
 <p>Cloud9 has been used throughout the project as my IDE.</p>
-<a href="https://aws.amazon.com/cloud9/?origin=c9io">https://aws.amazon.com/cloud9/?origin=c9io</a>
+<a target="_blank" href="https://aws.amazon.com/cloud9/?origin=c9io">https://aws.amazon.com/cloud9/?origin=c9io</a>
 
 <h3>Git & GitHub</h3>
 <p>Git and GitHub have been used throughout the project as a way to manage version control of the website and its code.</p>
-<a href="https://github.com/">https://github.com/</a>
+<a target="_blank" href="https://github.com/">https://github.com/</a>
 
 <h2>Resources</h2>
 
 <p>Throughout the course of the project I also used the following resources to assist me in creating the website:</p>
 
 <ul>
-<li><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></li>
-<li><a href="https://stackoverflow.com">https://stackoverflow.com</a></li>
-<li><a href="https://tinypng.com/">https://tinypng.com/</a></li>
-<li><a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a></li>
-<li><a href="https://www.quora.com/">https://www.quora.com</a></li>
-<li><a href="https://www.google.com/">https://www.google.com</a></li>
+<li><a target="_blank" href="https://www.w3schools.com/">https://www.w3schools.com/</a></li>
+<li><a target="_blank" href="https://stackoverflow.com">https://stackoverflow.com</a></li>
+<li><a target="_blank" href="https://tinypng.com/">https://tinypng.com/</a></li>
+<li><a target="_blank" href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a></li>
+<li><a target="_blank" href="https://www.quora.com/">https://www.quora.com</a></li>
+<li><a target="_blank" href="https://www.google.com/">https://www.google.com</a></li>
 </ul>
 
 <hr>
 
 <h2>Testing</h2>
-<p>All testing that I have completed in regards to the user story can be viewed on a separate document <a href="documents/Testing/Testing.md">here</a></p>
+<p>All testing that I have completed in regards to the user story can be viewed on a separate document <a target="_blank" href="documents/Testing/Testing.md">here</a></p>
 
 <h3>Issues Encountered</h3>
 <p>Throughout the course of completing my testing I found a few issues which I have detailed below:</p>
@@ -194,7 +194,7 @@ Through research, I discovered that this is a known issue with safari currently 
 
 <h2>Deployment</h2>
 
-<p>I have deployed this project using Github live pages and this can be found here: https://spawson.github.io/sallys-school-of-motoring/</p>
+<p>I have deployed this project using Github live pages and this can be found here: <a target="_blank" href="https://spawson.github.io/sallys-school-of-motoring/"> https://spawson.github.io/sallys-school-of-motoring/</a></p>
 <hr>
 
 <h2>Credits</h2>
@@ -203,24 +203,24 @@ Through research, I discovered that this is a known issue with safari currently 
 
 <ul>
 
-<li>Landing page callout image taken from <a href="https://www.pexels.com/photo/adult-automotive-blur-car-13861/">Pexels</a></li>
+<li>Landing page callout image taken from <a target="_blank" href="https://www.pexels.com/photo/adult-automotive-blur-car-13861/">Pexels</a></li>
 
 <li>Image Of Sally provided by client</li>
 
 <li>Image Carousel:
 <br>
-a) Image of Castleford taken by <a href="https://www.geograph.org.uk/photo/3009052">Derek Dye</a>
+a) Image of Castleford taken by <a target="_blank" href="https://www.geograph.org.uk/photo/3009052">Derek Dye</a>
 <br>
-b) Image Of Ferrybridge taken by <a href="https://www.flickr.com/photos/simon2207/27470214732/"> Simon220771 </a>
+b) Image Of Ferrybridge taken by <a target="_blank" href="https://www.flickr.com/photos/simon2207/27470214732/"> Simon220771 </a>
 <br>
-c) Image of Selby Abbey taken by <a href="https://www.flickr.com/photos/neilt/3488351365">Neil Turner</a>
+c) Image of Selby Abbey taken by <a target="_blank" href="https://www.flickr.com/photos/neilt/3488351365">Neil Turner</a>
 </li>
 
 <li>Testimonies images provided by client with permission from the customers</li>
 
 <li>Image on About page of vehicles provided by the client</li>
 
-<li>Learning To Drive image taken from <a href="https://pixabay.com/en/driving-car-navigation-speed-2732934/">Pixabay</a></li>
+<li>Learning To Drive image taken from <a target="_blank" href="https://pixabay.com/en/driving-car-navigation-speed-2732934/">Pixabay</a></li>
 
 </ul>
 
