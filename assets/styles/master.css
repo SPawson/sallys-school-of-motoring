@@ -1,4 +1,4 @@
-/*---------------------------------------------------Universal Styles*/
+
 
 * {
     font-family: 'News Cycle', sans-serif;
@@ -21,6 +21,10 @@ container {
 blockquote {
     border-left: 5px solid #e7dff1;
 
+}
+
+blockquote footer {
+    background-color: #fff;
 }
 
 .contact-text {
@@ -252,10 +256,6 @@ footer ul li a:active:focus{
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     margin: 0px 5px;
 }
 
@@ -378,12 +378,6 @@ button .btn .btn-cta {
 
 .carousel-caption {
     padding-bottom: 0px
-}
-
-/*---------------------------------------------------Testimonies Styles*/
-
-blockquote footer {
-    background-color: #fff;
 }
 
 /*---------------------------------------------------Contact Me Styles*/
